@@ -1,5 +1,9 @@
 fun main(args:Array<String>){
 
+
+
+
+
     //Her bruger jeg VAR når jeg skal ændre i værdien af datatype
     var name="Najib"
     println(name)

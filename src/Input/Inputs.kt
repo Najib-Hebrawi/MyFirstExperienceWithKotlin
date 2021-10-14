@@ -14,7 +14,7 @@ fun main(args:Array<String>){
     val dep= readLine()
     println(dep)
 
-    println("Enter averg")
+    println("Enter averag")
     val avg:Double= readLine()!!.toDouble()
     println(avg)
 

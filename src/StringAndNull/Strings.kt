@@ -1,3 +1,5 @@
+import java.util.*
+
 fun main(args:Array<String>){
 
 
@@ -24,8 +26,8 @@ fun main(args:Array<String>){
 
 
 
-    println(msgWelcome.toLowerCase())
-    println(msgWelcome.toUpperCase())
+    println(msgWelcome.lowercase(Locale.getDefault()))
+    println(msgWelcome.uppercase(Locale.getDefault()))
     println(msgWelcome.trim())
 
     println(msgWelcome.split(" "))

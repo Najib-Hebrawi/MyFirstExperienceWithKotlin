@@ -1,0 +1,57 @@
+
+
+
+
+Why OOP (Object-oriented programming) :
+1.No God Class
+2.Separate concern, teamwork
+3.Know all programming languages, like SQL.
+4.Manage your project
+
+-------------------------------------------
+
+*IN OOP every thinks is a Object. ex a Car*
+
+EX: the Car(object) have:
+
+Properties(الخصائص):
+                                                            Public class Car{
+                                                            String Type;
+                                                            int Model;
+                                                            double Price;
+                                                            double MilesDrive;
+                                                            String Owners;
+
+                                                            double GetPrice(){
+                                                            double NewPrice=Price-(MilesDrive*100);
+                                                            return NewPrice; }
+
+                                                            String GetOwner(){
+                                                            return owners;}
+
+                                                           }
+
+                                                            Car car1= new Car();
+                                                            car1.Type="BMW";
+                                                            car1.Model=2015;
+                                                            car1.Price=10000;
+                                                            car1.MilesDrive=105;
+                                                            car1.Owner="Najib";
+1. Type="BMW"
+2. Model=2015
+3. Price=10000
+4. MilesDrive=105
+5. Owner="Najib"
+
+Methods(طريقة/أساليب):
+
+1. GetPrice()
+2. GetOwner()
+
+
+
+
+-------------------------------------------
+
+
+
