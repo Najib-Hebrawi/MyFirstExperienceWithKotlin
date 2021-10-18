@@ -1,5 +1,7 @@
 fun main(args:Array<String>){
 
+
+
     println("welcome to kotlin")
     print("Hi "  + "\nNajib")
     println()
@@ -12,5 +14,10 @@ fun main(args:Array<String>){
        name = readLine()!!.toString()
 
     }
+
+
+
+    val input= readLine()
+    println(input?.toUpperCase())
 
 }
