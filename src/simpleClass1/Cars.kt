@@ -9,7 +9,6 @@ class Car1(){
     var MilesDrive:Int?=null
     var Owner:String?=null
 
-
     //To be sure that these parameters is working so i can use   init.
     constructor(Type:String, Model:Int,Price:Double,MilesDrive:Int,Owner:String) : this() {
         println("Type:$Type")
@@ -23,28 +22,16 @@ class Car1(){
         println("Owner:$Owner")
         this.Owner=Owner
     }
-
     //here this method give the price, and  ?  to sure that can be Null. and Double means that the result should come back as Double
     fun GetPrice():Double{
         //  !! means the value of price can not be empty.
         // toDouble because the result should be Double, but MilesDrive is a Int , so i convert it to Double
         return this.Price!!- (this.MilesDrive!!.toDouble()*10)
     }
-
     fun GetOwner():String{
         return this.Owner!!
-
     }
-
 }
-
-
-
-
-
-
-
-
 
 
 
