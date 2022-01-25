@@ -4,7 +4,7 @@ import ThePersonThatHaveBeingHitet
 import ThePlayersThatWillHitThePersonInTHeGame
 
 
-class Main {
+
 
     fun main () {
         val mohsen = ThePersonThatHaveBeingHitet()
@@ -25,4 +25,3 @@ class Main {
 
     }
 
-}
